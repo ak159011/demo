@@ -11,7 +11,13 @@ import sys
 # print(random.randint(1,6))
 # print(random.random())
 
-from 名片 import *
-print(a)
-# print(b)
+
+
+
+a=sys.stdin
+while True:
+
+    c=a.readline()
+    print(c)
+
 
