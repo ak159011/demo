@@ -1,0 +1,15 @@
+pin install <包名称> -i <url>  从指定网址安装第三方插件
+pin install <包名称> 安装第三方插件
+pip uninstall <包名称> 卸载第三方插件
+pip lis 列出安装的第三方包
+pip freeze 列出安装的第三方包的信息
+pip freeze > filename.txt 将模块名称版本重定向到文件
+pin install -r  filename.txt  安装文件里面的插件
+
+----------------------------------
+__all_=['a','b']   属性在[]里面的属性其他模块才能导入
+_开头的方法属性为私有的，无法导入到其他模块
+del (_a,_m)
+__name__:直接运行这个py文件时值是__main__,这个py文件作为模块导入其他文件时值是文件名称
+
+class name
