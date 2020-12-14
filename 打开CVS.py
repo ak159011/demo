@@ -3,7 +3,7 @@ import csv
 file = open('test.csv', 'w', encoding='utf8', newline='')
 w = csv.writer(file)
 w.writerow(['name', 'age', 'xbie', 'city'])
-w.writerow(['hh', 12, '女', '日本'])
+w.writerow(['张三', 12, '女', '重庆'])
 file.close()
 
 

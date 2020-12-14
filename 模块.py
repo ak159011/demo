@@ -16,7 +16,6 @@ import sys
 
 a=sys.stdin
 while True:
-
     c=a.readline()
     print(c)
 
